@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Product Listing</title>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/font-awesome-all.min.css" rel="stylesheet">
+      <link href="css/slick.css" rel="stylesheet" type="text/css">
+      <link href="css/slick-theme.css" rel="stylesheet" type="text/css">
+      <link href="css/custom.css" rel="stylesheet" type="text/css">
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/
+         html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/
+         respond.min.js"></script>
+      <![endif]-->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>   
+      <script src="js/font-awesome-all.min.js"></script>
+      <script src="js/slick.min.js"></script>
+      <script src="js/custom.js"></script>
+
+
+   </head>
+   <body>
+ <header class="main-header"> 
+        <div class="header-top">
+            <div class="container">
+            <div class="row">
+            <div class="col-lg-12">
+            <div class="desktop-view">
+            <div class="header-row">
+                <div class="hdr-info-lt">
+                    <ul>
+                        <li><a href="callto:800-387-7356"><img src="images/call.svg"> 800-387-7356</a></li>
+                    </ul>
+                </div>
+
+                <div class="hdr-info-lt">
+                    <p>FREE SHIPPING ALL DOMESTIC ORDERS $25+</p>
+                </div>
+                <div class="hdr-info-lt">
+                    <ul>
+                        <li><a href="#">Customer Service</a></li>
+                        <li><a href="#">Secure Shopping</a></li>
+                        <li><a href="#">Testimonial</a></li>
+                    </ul>
+                </div>
+                </div>
+                </div>
+                <div class="mobile-view scrolling-container">
+                    <marquee>
+                <div class="flex scrolling-text">
+                <div class="hdr-info-lt">
+                    <ul>
+                        <li><a href="callto:800-387-7356"><img src="images/call.svg"> 800-387-7356</a></li>
+                    </ul>
+                </div>
+
+                <div class="hdr-info-lt">
+                    <p>FREE SHIPPING ALL DOMESTIC ORDERS $25+</p>
+                </div>
+                <div class="hdr-info-lt">
+                    <ul>
+                        <li><a href="#">Customer Service</a></li>
+                        <li><a href="#">Secure Shopping</a></li>
+                        <li><a href="#">Testimonial</a></li>
+                    </ul>
+                </div>
+                </div>
+                    </marquee>
+                </div>
+            </div>
+        </div>
+        </div>
+</div>
+        <div class="hdr-btm-part">
+        <div class="header-mid">
+                <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 header-row">
+                        <div class="logo">
+                            <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+                        </div>
+                        <div class="header-mid-right header-row">
+                            <div class="search-box desktop-view">
+                                <form>
+                                    <input type="search" placeholder="type here..." class="form-control">
+                                    <button class="search-btn" type="submit">Search</button>
+                                </form>
+                            </div>
+                            <ul class="desktop-view">
+                                <li class="user"><a href="#"><img src="images/user.svg" alt="user"></a></li>
+                                <li class="cart"><a href="#"><img src="images/shopping-cart.svg" alt="cart"></a></li>
+                            </ul>                        
+                        </div> 
+                    </div>
+                </div>
+            </div>
+</div>
+        <div class="header-btm">
+            <div class="container header-row head-adj">            
+                <div class="hdr-lft">
+                        <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample0101" aria-expanded="false" aria-controls="collapseExample">
+                            <div class="hdr-lft-all"><div class="nav_dep">
+                                <i class="fa fa-list" aria-hidden="true"></i>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div> All Departments</div>
+                          </button>
+                          <div class="collapse" id="collapseExample0101">
+                            <div class="card card-body">
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault14">
+                                    <label class="form-check-label" for="flexRadioDefault14">Floody Beam</label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault15">
+                                    <label class="form-check-label" for="flexRadioDefault15">Uses AA Battery</label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault16">
+                                    <label class="form-check-label" for="flexRadioDefault16">Uses 18650 Battery</label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault17">
+                                    <label class="form-check-label" for="flexRadioDefault17">Uses CR123A Battery</label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault18">
+                                    <label class="form-check-label" for="flexRadioDefault18">Color LED</label>
+                                  </div>
+                            </div>
+                          </div>
+                </div>
+                <div class="hdr-rt">
+                    <div class="mobile-view">
+                        <ul class=" cart-user">
+                            <li class="user"><a href="#"><img src="images/user.svg" alt="user"></a></li>
+                            <li class="cart"><a href="#"><img src="images/shopping-cart.svg" alt="cart"></a></li>
+                        </ul> 
+                    </div>
+                        <div class="nav_btn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="main-menu">
+                            <div class="search-box mobile-view">
+                                <form>
+                                    <input type="search" placeholder="type here..." class="form-control">
+                                    <button class="search-btn" type="submit">Search</button>
+                                </form>
+                            </div>
+                            <ul>
+                            <li class="current-menu-item"><a href="about-us.html">All Bundles</a></li>
+                            <li class="has-children"><a href="financing.html">All Brands</a></li>
+                            <li><a href="contact-us.html">New Arrivals</a></li>
+                            <li><a href="#">Clearance Center</a></li>
+                            <li><a href="#">Open-Box Corner</a></li>
+                            <li><a href="#">View Your Offers</a></li>
+                            <li><a href="#">Group Buy</a></li>
+                            <li><a href="#">Deal of the day</a></li>
+                            <li><a href="#">Make an offer</a></li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+</div> 
+        </div>
+    </header>
+    <main>
+<section class="prod-select-sec">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="prod-sel-head">
+                    <h6>Categories:</h6>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="prod-sel-sec">
+                    <button class="btn prod-toggle-main" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        <div class="prod-toggle-btn">
+                            <div class="prod-toggle-text">
+                            <p>Flashlights & headlamps</p>
+                        </div>
+                        <div class="prod-toggle-arrow-main">
+                            <img src="images/prod-toggle-arrow-2.svg">
+                        </div>
+                    </div>
+                      </button>
+                      <div class="collapse" id="collapseExample">
+                        <div class="card card-body">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">LED Flashlights</label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                                <label class="form-check-label" for="flexRadioDefault2">Cool White</label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+                                <label class="form-check-label" for="flexRadioDefault3">Rechargeable</label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4">
+                                <label class="form-check-label" for="flexRadioDefault4">Neutral White</label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault5">
+                                <label class="form-check-label" for="flexRadioDefault5">Floody Beam</label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault6">
+                                <label class="form-check-label" for="flexRadioDefault6">Uses AA Battery</label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault7">
+                                <label class="form-check-label" for="flexRadioDefault7">Uses 18650 Battery</label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault8">
+                                <label class="form-check-label" for="flexRadioDefault8">Uses CR123A Battery</label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault9">
+                                <label class="form-check-label" for="flexRadioDefault9">Color LED</label>
+                              </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="prod-sel-sec">
+                    <button class="btn prod-toggle-btn-1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+                        <div class="prod-toggle-btn">
+                            <div class="prod-toggle-text">
+                            <p>Sub-Categories</p>
+                        </div>
+                        <div class="prod-toggle-arrow-1">
+                            <img src="images/prod-toggle-arrow-2.svg">
+                        </div>
+                    </div>
+                      </button>
+                      <div class="collapse" id="collapseExample2">
+                        <div class="card card-body">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault10">
+                                <label class="form-check-label" for="flexRadioDefault10">LED Flashlights</label>
+                                <div class="radio-check">
+                                    <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+                                    <label class="radio-check-label" for="checkboxNoLabel">Headlamp</label>
+                                  </div>
+                                  <div class="radio-check">
+                                    <input class="form-check-input" type="checkbox" id="checkboxNoLabel2" value="" aria-label="...">
+                                    <label class="radio-check-label" for="checkboxNoLabel2">Work/Drive Light</label>
+                                  </div>
+                                  <div class="radio-check">
+                                    <input class="form-check-input" type="checkbox" id="checkboxNoLabel3" value="" aria-label="...">
+                                    <label class="radio-check-label" for="checkboxNoLabel3"> Accessories</label>
+                                  </div>
+                                  <div class="radio-check">
+                                    <input class="form-check-input" type="checkbox" id="checkboxNoLabel4" value="" aria-label="...">
+                                    <label class="radio-check-label" for="checkboxNoLabel4">Flashlight Bundles</label>
+                                  </div>
+                                  <div class="radio-check">
+                                    <input class="form-check-input" type="checkbox" id="checkboxNoLabel5" value="" aria-label="...">
+                                    <label class="radio-check-label" for="checkboxNoLabel5">Photography Fill Light</label>
+                                  </div>
+                                </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault11">
+                                <label class="form-check-label" for="flexRadioDefault11">Cool White</label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault12">
+                                <label class="form-check-label" for="flexRadioDefault12">Rechargeable</label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault13">
+                                <label class="form-check-label" for="flexRadioDefault13">Neutral White</label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault14">
+                                <label class="form-check-label" for="flexRadioDefault14">Floody Beam</label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault15">
+                                <label class="form-check-label" for="flexRadioDefault15">Uses AA Battery</label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault16">
+                                <label class="form-check-label" for="flexRadioDefault16">Uses 18650 Battery</label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault17">
+                                <label class="form-check-label" for="flexRadioDefault17">Uses CR123A Battery</label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault18">
+                                <label class="form-check-label" for="flexRadioDefault18">Color LED</label>
+                              </div>
+                        </div>
+                      </div>
+            </div>
+                
+                <div class="prod-sel-sec">
+                    <button class="btn prod-toggle-btn-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
+                        <div class="prod-toggle-btn">
+                            <div class="prod-toggle-text">
+                            <p>Select by Brands</p>
+                        </div>
+                        <div class="prod-toggle-arrow-2">
+                            <img src="images/prod-toggle-arrow-2.svg">
+                        </div>
+                    </div>
+                      </button>
+                      <div class="collapse" id="collapseExample3">
+                        <div class="card card-body">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault110">
+                                <label class="form-check-label" for="flexRadioDefault110">Acebeam</label>
+                                <div class="radio-check">
+                                  <input class="form-check-input" type="checkbox" id="checkboxNoLabel10" value="" aria-label="...">
+                                  <label class="radio-check-label" for="checkboxNoLabel10">Acebeam K Series</label>
+                                </div>
+                                <div class="radio-check">
+                                  <input class="form-check-input" type="checkbox" id="checkboxNoLabel20" value="" aria-label="...">
+                                  <label class="radio-check-label" for="checkboxNoLabel20"> Acebeam X Series</label>
+                                </div>
+                                <div class="radio-check">
+                                  <input class="form-check-input" type="checkbox" id="checkboxNoLabel30" value="" aria-label="...">
+                                  <label class="radio-check-label" for="checkboxNoLabel30"> T Series</label>
+                                </div>
+                                <div class="radio-check">
+                                  <input class="form-check-input" type="checkbox" id="checkboxNoLabel40" value="" aria-label="...">
+                                  <label class="radio-check-label" for="checkboxNoLabel40">Headlamp</label>
+                                </div>
+                                <div class="radio-check">
+                                  <input class="form-check-input" type="checkbox" id="checkboxNoLabel50" value="" aria-label="...">
+                                  <label class="radio-check-label" for="checkboxNoLabel50"> Keychain</label>
+                                </div>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault19">
+                                <label class="form-check-label" for="flexRadioDefault19">Andrew-Amanda</label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault20">
+                                <label class="form-check-label" for="flexRadioDefault20">Armytek</label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault21">
+                                <label class="form-check-label" for="flexRadioDefault21">Eagtac</label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault22">
+                                <label class="form-check-label" for="flexRadioDefault22">Eagtac</label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault23">
+                                <label class="form-check-label" for="flexRadioDefault23"> Fenix</label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault24">
+                                <label class="form-check-label" for="flexRadioDefault24">Folomov</label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault25">
+                                <label class="form-check-label" for="flexRadioDefault25">iTP</label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault26">
+                                <label class="form-check-label" for="flexRadioDefault26">JETBeam</label>
+                              </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="prod-sel-sec">
+                    <button class="btn prod-toggle-btn-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample">
+                        <div class="prod-toggle-btn">
+                            <div class="prod-toggle-text">
+                            <p>Select by Price</p>
+                        </div>
+                        <div class="prod-toggle-arrow-3">
+                            <img src="images/prod-toggle-arrow-2.svg">
+                        </div>
+                    </div>
+                      </button>
+                      <div class="collapse" id="collapseExample4">
+                        <div class="card card-body">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault27" checked>
+                                <label class="form-check-label" for="flexRadioDefault27">Under $50</label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault28">
+                                <label class="form-check-label" for="flexRadioDefault28"> $50 - $100</label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault29">
+                                <label class="form-check-label" for="flexRadioDefault29">$100 - $150</label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault30">
+                                <label class="form-check-label" for="flexRadioDefault30">$150 - $200</label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault31">
+                                <label class="form-check-label" for="flexRadioDefault31">$200 - $300</label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault32">
+                                <label class="form-check-label" for="flexRadioDefault32">Above $300</label>
+                              </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="prod-sel-sec">
+                    <button class="btn prod-toggle-btn-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample5" aria-expanded="false" aria-controls="collapseExample">
+                        <div class="prod-toggle-btn">
+                            <div class="prod-toggle-text">
+                            <p>Select by Lumens</p>
+                        </div>
+                        <div class="prod-toggle-arrow-4">
+                            <img src="images/prod-toggle-arrow-2.svg">
+                        </div>
+                    </div>
+                      </button>
+                      <div class="collapse" id="collapseExample5">
+                        <div class="card card-body">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault33">
+                                <label class="form-check-label" for="flexRadioDefault33">LED Flashlights</label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault34">
+                                <label class="form-check-label" for="flexRadioDefault34">Cool White</label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault35">
+                                <label class="form-check-label" for="flexRadioDefault35">Rechargeable</label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault36">
+                                <label class="form-check-label" for="flexRadioDefault36">Neutral White</label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault37">
+                                <label class="form-check-label" for="flexRadioDefault37">Floody Beam</label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault38">
+                                <label class="form-check-label" for="flexRadioDefault38">Uses AA Battery</label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault39">
+                                <label class="form-check-label" for="flexRadioDefault39">Uses 18650 Battery</label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault40">
+                                <label class="form-check-label" for="flexRadioDefault40">Uses CR123A Battery</label>
+                              </div>
+
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="prod-sel-top mb-3">
+                            <div class="prod-sel-left">
+                                <p>Showing 1 - 9 of 28 items</p>
+                            </div>
+                            <div class="prod-sel-right">
+                                <p>Sort by:</p>
+                                <div class="prod-sel-sec">
+                                    <button class="btn prod-toggle-btn-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample6" aria-expanded="false" aria-controls="collapseExample">
+                                        <div class="prod-toggle-btn">
+                                            <div class="prod-toggle-text-5">
+                                            <p>Alphabetically, A-Z</p>
+                                        </div>
+                                        <div class="prod-toggle-arrow">
+                                            <img src="images/prod-toggle-arrow-2.svg">
+                                        </div>
+                                    </div>
+                                      </button>
+                                      <div class="collapse" id="collapseExample6">
+                                        <div class="card card-body">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefaultr1">
+                                                <label class="form-check-label" for="flexRadioDefaultr1">LED Flashlights</label>
+                                              </div>
+                                              <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefaultr2">
+                                                <label class="form-check-label" for="flexRadioDefaultr2">Cool White</label>
+                                              </div>
+                                              <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefaultr3">
+                                                <label class="form-check-label" for="flexRadioDefaultr3">Rechargeable</label>
+                                              </div>
+                                              <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefaultr4">
+                                                <label class="form-check-label" for="flexRadioDefaultr4">Neutral White</label>
+                                              </div>
+                                        </div>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 prod-pad">
+                        <div class="product-card">
+                            <div class="product-card-img"><img src="images/product-slider-1.png" alt="product images"></div>
+                                <div class="product-card-info">
+                                <a class="cart-itm" href="#"><img src="images/shopping-cart.svg" alt="cart"></a>
+                                <h5>Eagletac TX3G Pro MKII CW</h5>
+                                <p class="price">$234.95</p>
+                                <a href="#" class="btn">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 prod-pad">
+                        <div class="product-card">
+                            <div class="product-card-img"><img src="images/product-slider-2.jpg" alt="product images"></div>
+                                <div class="product-card-info">
+                                <a class="cart-itm" href="#"><img src="images/shopping-cart.svg" alt="cart"></a>
+                                <h5>Nitecore-lr40-Green</h5>
+                                <p class="price">$234.95</p>
+                                <a href="#" class="btn">Shop Now</a>
+                            </div>
+                    </div>
+                </div>
+                    <div class="col-lg-4 prod-pad">
+                        <div class="product-card">
+                            <div class="product-card-img"><img src="images/product-slider-3.jpg" alt="product images"></div>
+                                <div class="product-card-info">
+                                <a class="cart-itm" href="#"><img src="images/shopping-cart.svg" alt="cart"></a>
+                                <h5>Nitecore NB10000 - Silver</h5>
+                                <p class="price">$234.95</p>
+                                <a href="#" class="btn">Shop Now</a>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 prod-pad">
+                    <div class="product-card">
+                        <div class="product-card-img"><img src="images/product-slider-1.png" alt="product images"></div>
+                            <div class="product-card-info">
+                            <a class="cart-itm" href="#"><img src="images/shopping-cart.svg" alt="cart"></a>
+                            <h5>Eagletac TX3G Pro MKII CW</h5>
+                            <p class="price">$234.95</p>
+                            <a href="#" class="btn">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 prod-pad">
+                    <div class="product-card">
+                        <div class="product-card-img"><img src="images/product-slider-2.jpg" alt="product images"></div>
+                            <div class="product-card-info">
+                            <a class="cart-itm" href="#"><img src="images/shopping-cart.svg" alt="cart"></a>
+                            <h5>Nitecore-lr40-Green</h5>
+                            <p class="price">$234.95</p>
+                            <a href="#" class="btn">Shop Now</a>
+                        </div>
+                </div>
+            </div>
+                <div class="col-lg-4 prod-pad">
+                    <div class="product-card">
+                        <div class="product-card-img"><img src="images/product-slider-3.jpg" alt="product images"></div>
+                            <div class="product-card-info">
+                            <a class="cart-itm" href="#"><img src="images/shopping-cart.svg" alt="cart"></a>
+                            <h5>Nitecore NB10000 - Silver</h5>
+                            <p class="price">$234.95</p>
+                            <a href="#" class="btn">Shop Now</a>
+                        </div>
+                </div>
+            </div>
+            <div class="col-lg-4 prod-pad">
+                <div class="product-card">
+                    <div class="product-card-img"><img src="images/product-slider-1.png" alt="product images"></div>
+                        <div class="product-card-info">
+                        <a class="cart-itm" href="#"><img src="images/shopping-cart.svg" alt="cart"></a>
+                        <h5>Eagletac TX3G Pro MKII CW</h5>
+                        <p class="price">$234.95</p>
+                        <a href="#" class="btn">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 prod-pad">
+                <div class="product-card">
+                    <div class="product-card-img"><img src="images/product-slider-2.jpg" alt="product images"></div>
+                        <div class="product-card-info">
+                        <a class="cart-itm" href="#"><img src="images/shopping-cart.svg" alt="cart"></a>
+                        <h5>Nitecore-lr40-Green</h5>
+                        <p class="price">$234.95</p>
+                        <a href="#" class="btn">Shop Now</a>
+                    </div>
+            </div>
+        </div>
+            <div class="col-lg-4 prod-pad">
+                <div class="product-card">
+                    <div class="product-card-img"><img src="images/product-slider-3.jpg" alt="product images"></div>
+                        <div class="product-card-info">
+                        <a class="cart-itm" href="#"><img src="images/shopping-cart.svg" alt="cart"></a>
+                        <h5>Nitecore NB10000 - Silver</h5>
+                        <p class="price">$234.95</p>
+                        <a href="#" class="btn">Shop Now</a>
+                    </div>
+            </div>
+        </div>
+        </div>
+    </div>
+<div class="col-lg-12">
+    <div class="prod-page">
+       <ul>
+        <li><a href="#"><img src="images/prod-slider-arrow-left.svg"><img src="images/prod-slider-arrow-left.svg"></a></li>
+        <li><a href="#"><img src="images/prod-slider-arrow-left.svg"></a></li>
+        <li><a class="active-page" href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li>......</li>
+        <li><a href="#">15</a></li>
+        <li><a href="#"><img src="images/prod-slider-arrow-right.svg"></a></li>
+        <li><a href="#"><img src="images/prod-slider-arrow-right.svg"><img src="images/prod-slider-arrow-right.svg"></a></li>
+</ul>
+    </div>
+  </div>
+</section>
+    </main>
+    <footer class="ftr-wrapper">
+      <div class="ftr-op-bg">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-3 col-md-6 ftr-bord">
+              <div class="ftr-option">
+                  <div class="ftr-img">
+                      <img src="images/ftr-img-1.svg">
+                  </div>
+                  <div class="ftr-desc">
+                      <h6>Saving's Channels</h6>
+                      <p>savings to our loyal customers</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 ftr-bord">
+              <div class="ftr-option">
+                  <div class="ftr-img">
+                      <img src="images/ftr-img-4.svg">
+                  </div>
+                  <div class="ftr-desc">
+                      <h6>Secure and Easy Login</h6>
+                      <p>The login process is easy and secure.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 ftr-bord">
+              <div class="ftr-option">
+                  <div class="ftr-img">
+                      <img src="images/ftr-img-2.svg">
+                  </div>
+                  <div class="ftr-desc">
+                      <h6>Secure shopping</h6>
+                      <p>payments safely and securely</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+              <div class="ftr-option">
+                  <div class="ftr-img">
+                      <img src="images/ftr-img-3.svg">
+                  </div>
+                  <div class="ftr-desc">
+                      <h6>Free Shipping</h6>
+                      <p>Free Shipping on US domestic orders over $25</p>
+                  </div>
+              </div>
+          </div>
+          </div>
+      </div>
+  </div>
+  <div class="ftr-area">
+          <div class="footer-top">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-lg-3">
+                       <div class="ftr-payment">
+                          <h6>PAYMENT FORMS ACCEPTED</h6>
+                          <ul>
+                              <li><a href="#"><img src="images/ftr-payment-1.svg"></a></li>
+                              <li><a href="#"><img src="images/ftr-payment-2.svg"></a></li>
+                              <li><a href="#"><img src="images/ftr-payment-3.svg"></a></li>
+                              <li><a href="#"><img src="images/ftr-payment-4.svg"></a></li>
+                          </ul>
+                       </div>
+                        <div class="ftr-social">
+                          <h6>GET IN THE KNOW</h6>
+                          <ul>
+                              <li><a href="#"><img src="images/ftr-youtube.svg"></a></li>
+                              <li><a href="#"><img src="images/Ftr-facebook.svg"></a></li>
+                              <li><a href="#"><img src="images/ftr-instagram.svg"></a></li>
+                              <li><a href="#"><img src="images/ftr-twitter.svg"></a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-3">
+                          <div class="imp-links">
+                          <h6>Why Buy From Us</h6>
+                          <ul>
+                              <li><a href="#">Our Unbeatable Saving's Channels</a></li>
+                              <li><a href="#">Secure and Easy Login</a></li>
+                              <li><a href="#">Safe and Secure Shopping</a></li>
+                              <li><a href="#">Free Shipping on most domestic orders</a></li>
+                              <li><a href="#">Customer Testimonials</a></li>
+                              <li><a href="#">We value your privacy</a></li>
+                          </ul>
+                      </div>
+                      </div>
+                      <div class="col-lg-3">
+                          <div class="imp-links">
+                          <h6>Customer Service</h6>
+                          <ul>
+                              <li><a href="#">About Us</a></li>
+                              <li><a href="#">Your account</a></li>
+                              <li><a href="#">Safe and Secure Shopping</a></li>
+                              <li><a href="#">Shipping Policy, Returns & Exchanges,</a></li>
+                              <li><a href="#">Warranty Services</a></li>
+                              <li><a href="#">Contact Us</a></li>
+                          </ul>
+                      </div>
+                      </div>
+                      <div class="col-lg-3">
+                          <div class="news-tel-sec">
+                          <h6>Subscribe newsletter</h6>
+                          <div class="news-tel">
+                              <input type="text" class="form-control" placeholder="Enter email">
+                              <button class="news-tel-btn">Subscribe</button>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+              </div>
+          </div>
+  
+          <div class="footer-btm">   
+              <div class="container">
+                  <div class="row">                    
+                    <div class="col-lg-12">
+                      <div class="ftr-btm-sec">
+                      <div class="ftr-btm-links">
+                          <ul>
+                              <li><a href="#">Terms & Conditions</a></li>
+                              <li><a href="#">Privacy Policy</a></li>
+                              <li><a href="#">Cookies</a></li>
+                          </ul>
+                      </div>
+                      <div class="ftr-copy">
+                          <p>© 2023 Andrew & Amanda</p>
+                      </div>
+                  </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+     </footer>
+   </body>
+</html>
